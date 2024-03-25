@@ -1,0 +1,20 @@
+h3{
+    padding: 10px;
+}
+
+body{
+    display: flex;
+    justify-content:space-between ;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: column;
+    background-color: #30b2da
+
+}
+
+.container{
+    width: 20px;
+    height: 20px;
+    border: solid 2px black;
+    margin: 5px;
+}
