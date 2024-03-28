@@ -1,4 +1,4 @@
-h3{
+h1{
     padding: 10px;
 }
 
@@ -8,13 +8,13 @@ body{
     list-style-type: none;
     align-items: center;
     flex-direction: column;
-    background-color:black ;
+
 
 }
 
 .container{
     width: 20px;
     height: 20px;
-    border: solid 2px black;
+    border: solid 2px white;
     margin: 5px;
 }
