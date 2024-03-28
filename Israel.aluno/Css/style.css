@@ -1,0 +1,20 @@
+h1{
+    padding: 10px;
+}
+
+body{
+    display: flex;
+    justify-content:space-between ;
+    list-style-type: none;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.container{
+    width: 20px;
+    height: 20px;
+    border: solid 2px white;
+    margin: 5px;
+}
