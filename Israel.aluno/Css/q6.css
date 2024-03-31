@@ -1,0 +1,82 @@
+body {
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  
+    
+    
+ 
+ 
+ }
+ 
+ 
+ .caixa{
+ 
+     
+     width: 200px;
+     height: 200px;
+     background-color: rgb(115, 255, 0);
+     animation-duration: 10s;
+     animation-name: anima;
+    
+     
+     
+  
+ }
+
+ .caixa:hover{
+    animation: anima 10s ease;
+   
+ }
+
+ @keyframes anima{
+      
+    1%{
+        background-color: rgb(68, 0, 255);
+        transform: rotate(45deg);
+     }
+     5%{
+        background-color:rgb(255, 0, 0);
+        transform: rotate(90deg);
+     }
+    
+     10%{
+        background-color:rgb(255, 0, 170);
+        transform: rotate(135deg);
+     }
+   
+     15%{
+        background-color:rgb(3, 70, 8);
+        transform: rotate(180deg);
+     }
+   
+     25%{
+        background-color:rgb(132, 80, 228);
+        transform: rotate(225deg);
+     }
+   
+     35%{
+        background-color:rgb(70, 3, 48);
+        transform: rotate(270deg);
+     }
+   
+     45%{
+        background-color:rgb(253, 253, 248);
+        transform: rotate(315deg);
+     }
+   
+     55%{
+        background-color:rgb(235, 148, 19);
+        transform: rotate(360deg);
+     }
+   
+     
+   
+
+ 
+
+ }
