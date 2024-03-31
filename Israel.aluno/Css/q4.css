@@ -22,6 +22,8 @@ body {
      border-radius: 100%;
      background-color: rgb(25, 0, 255);
      animation-duration: 4s;
+     animation-name: anima;
+  
      
      
   
@@ -35,7 +37,17 @@ body {
  @keyframes anima{
       
     50%{
-        background-color:blue ; width: 500px;  
+        background-color:blue ; 
+        width: 500px; 
+        position:absolute;
+       }   
+
+     75%{  
+       
+       width: 100vh;
+       left: 50%;
+       -ms-transform-origin: -50%,-50%;
+        
     }
    
 
