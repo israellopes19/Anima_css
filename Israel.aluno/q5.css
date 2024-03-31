@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  
+    
+    
+ 
+ 
+ }
+ 
+ 
+ .caixa{
+ 
+     
+     width: 200px;
+     height: 200px;
+     border-radius: 100%;
+     background-color: rgb(25, 0, 255);
+     animation-duration: 3s;
+     animation-name: anima;
+     border: solid 25px white;
+     border-top: 25px solid green ;
+  
+     
+     
+  
+ }
+
+ .caixa:hover{
+    animation: anima 3s ease;
+   
+ }
+
+ @keyframes anima{
+      
+    50%{
+        transform: rotate(45deg);
+     }
+   
+
+ 
+
+ }
