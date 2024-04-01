@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+  
+    
+    
+ 
+ 
+ }
+ 
+ 
+ .caixa{
+ 
+     
+     width: 200px;
+     height: 200px;
+     background-color: rgb(25, 0, 255);
+     animation-duration: 4s;
+     animation-name: anima;
+  
+     
+     
+  
+ }
+
+ .caixa:hover{
+    animation: anima 4s ease;
+   
+ }
+
+ @keyframes anima{
+      
+    50%{
+        background-color:blue ;  
+        position:absolute;
+       }   
+
+     75%{  
+       
+       top: 1%;
+       right: 85%;
+       -ms-transform-origin: 50%,50%;
+        
+    }
+   
+
+ 
+
+ }
