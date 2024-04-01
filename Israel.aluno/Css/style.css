@@ -1,20 +1,28 @@
 h1{
-    padding: 10px;
+   border: solid 2px rgb(22, 21, 21);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: rgb(63, 95, 201);
+ 
 }
 
 body{
+    background-color: gray;
     display: flex;
     justify-content:space-between ;
-    list-style-type: none;
     align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
 
 
 }
 
 .container{
-    width: 20px;
+    width: 5px;
     height: 20px;
-    border: solid 2px white;
-    margin: 5px;
+    background-color: rgb(63, 95, 201);
+    border: solid 3px black;
+    border-radius: 20%;
+    margin: 30px;
+    text-align: center;
+    width: 50vh;
+  
 }
