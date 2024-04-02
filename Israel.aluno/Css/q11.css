@@ -1,0 +1,50 @@
+a {
+    width: 50px;
+    height: 20px;
+    border: solid 3px gray;
+    background-color: antiquewhite;
+    
+  
+
+  
+ }
+ 
+ 
+ body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+ 
+  
+ }
+ 
+ 
+ .caixa {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    animation-duration: 1s;  
+    animation-name: anima;
+    animation-iteration-count: infinite;
+
+   
+}
+ 
+
+ .caixa:hover {
+    animation: anima 1s ease; 
+}
+ 
+
+ @keyframes anima {
+ 
+   100%{
+      width: 400px;
+      height: 400px;
+      transform: rotate(360deg);
+   }
+
+}
