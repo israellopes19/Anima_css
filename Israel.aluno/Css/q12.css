@@ -1,0 +1,37 @@
+
+a{
+width: 50px;
+height: 20px;
+border: solid 3px gray;
+background-color: antiquewhite;
+position: absolute;
+top: 0%;
+left: 0%;
+
+}
+
+h6{
+    background-color: antiquewhite;
+}
+
+
+body {
+background-color: rgb(20, 20, 20);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+height: 100vh;
+
+
+}
+
+
+.caixa {
+width: 190px;
+height: 170px;
+border: solid 5px black;
+background-color: rgb(82, 78, 78);
+animation-duration: 1s;  
+animation-name: anima;
+}
