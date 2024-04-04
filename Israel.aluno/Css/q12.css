@@ -10,13 +10,11 @@ left: 0%;
 
 }
 
-h6{
-    background-color: antiquewhite;
-}
+
 
 
 body {
-background-color: rgb(20, 20, 20);
+background-color: gray;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -28,10 +26,31 @@ height: 100vh;
 
 
 .caixa {
-width: 190px;
-height: 170px;
-border: solid 5px black;
-background-color: rgb(82, 78, 78);
-animation-duration: 1s;  
-animation-name: anima;
+    width: 180px;
+    height: 170px;
+    border-radius: 15px;
+    border: 2px solid white;
+    background-color: rgb(86, 93, 100); 
+    color: white;
+    animation: anima;
+    animation-duration: 3s;
+    position: relative;
+    
+}
+
+
+.form{
+    margin: 5px;
+}
+
+ 
+ @keyframes anima {
+    0% {
+        top: -500px;
+    }
+
+    100% {
+        top: 0px;
+    }
+    
 }
