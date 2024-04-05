@@ -1,6 +1,20 @@
+a {
+   width: 50px;
+   height: 20px;
+   border: solid 3px gray;
+   background-color: antiquewhite;
+   position: absolute;
+   top: 0%;
+   left: 0%;
+   
+ 
+
+ 
+}
+
+
 body {
     background-color: black;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,17 +50,13 @@ body {
 
  @keyframes anima{
       
-    50%{
-        background-color:blue ; 
-        width: 500px; 
+    50%{    
         position:absolute;
        }   
 
-     75%{  
-       
-       width: 100vh;
-       left: 50%;
-       -ms-transform-origin: -50%,-50%;
+     55%{  
+             left: 80%;
+      
         
     }
    

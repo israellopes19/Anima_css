@@ -14,7 +14,7 @@ left: 0%;
 
 
 body {
-background-color: gray;
+background-color: black;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -29,7 +29,7 @@ height: 100vh;
     width: 180px;
     height: 170px;
     border-radius: 15px;
-    border: 2px solid white;
+    border: 2px solid rgb(26, 7, 129);
     background-color: rgb(86, 93, 100); 
     color: white;
     animation: anima;
