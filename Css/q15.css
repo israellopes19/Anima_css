@@ -1,0 +1,80 @@
+a {
+    width: 50px;
+    height: 20px;
+    border: solid 3px gray;
+    background-color: antiquewhite;
+    position: absolute;
+    text-decoration-line: none;
+    top: 0%;
+    left: 0%;
+    
+  
+
+  
+ }
+ 
+ 
+ body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: row;
+    height: 100vh;
+ 
+  
+ }
+ 
+ 
+ .caixa {
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    border-radius: 100%;
+    background-color: blue;
+    animation: up 15s infinite;
+    position: relative; 
+  
+}
+
+
+@keyframes up {
+    0% {
+        top: 0%;
+        left: 0 ;
+     }    
+    17% {
+        top: 51%;
+        left: -10%;
+        background-color:aqua;
+     }
+
+     34%{
+        top: 40%;
+        left: -46%;
+        transform: translateY(-100%);
+        background-color: cadetblue;
+     }
+
+     64%{
+        top: -25%;
+        left: 46%;
+        background-color: cornflowerblue;
+       
+     }
+
+     83%{
+        top: -25%;
+        left: -47%;
+        background-color: cyan;
+     }
+
+   
+     100%{
+        top:0%;
+        left: 0%;
+        background-color: blue;
+     }
+ 
+
+}

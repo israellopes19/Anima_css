@@ -1,0 +1,42 @@
+h1{
+    color: #5BBE42;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+body{
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    gap: 40px;
+    place-content: center;
+    height: 100vh;
+}
+
+
+.container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50px;
+      height: 50px;
+      border: 1px solid white;
+      border-radius: 100%;
+      color: black;
+      font-weight: bold;
+      background-color: white;
+      text-decoration: none;
+
+}
+
+
+.container:hover{
+    background-color: #5BBE42;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

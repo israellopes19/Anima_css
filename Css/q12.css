@@ -1,0 +1,56 @@
+
+a{
+width: 50px;
+height: 20px;
+border: solid 3px gray;
+background-color: antiquewhite;
+position: absolute;
+top: 0%;
+left: 0%;
+
+}
+
+
+
+
+body {
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+height: 100vh;
+
+
+}
+
+
+.caixa {
+    width: 180px;
+    height: 170px;
+    border-radius: 15px;
+    border: 2px solid rgb(26, 7, 129);
+    background-color: rgb(86, 93, 100); 
+    color: white;
+    animation: anima;
+    animation-duration: 3s;
+    position: relative;
+    
+}
+
+
+.form{
+    margin: 5px;
+}
+
+ 
+ @keyframes anima {
+    0% {
+        top: -500px;
+    }
+
+    100% {
+        top: 0px;
+    }
+    
+}
