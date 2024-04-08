@@ -3,8 +3,10 @@ a {
     height: 20px;
     border: solid 3px gray;
     background-color: antiquewhite;
+    text-decoration: none;
+    color: black;
     position: absolute;
-    text-decoration-line: none;
+   
     top: 0%;
     left: 0%;
     
